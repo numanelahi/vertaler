@@ -11,5 +11,5 @@ var bot = new TelegramBot(token, {webHook: {port: port, host: host}});
 bot.setWebHook(domain+':443/bot'+token);
 bot.on('message', function (msg) {
   var chatId = msg.chat.id;
-  bot.sendMessage(chatId, "I'm alive!");
+  bot.sendMessage(chatId, "Asalamualaikum wa rehmatullah");
 });
