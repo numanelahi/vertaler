@@ -1,11 +1,12 @@
 {
   "name": "Vertaler",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+  "author": "Numan Elahi",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.21.1",
+    "node-telegram-bot-api": "^0.21.1"
   }
 }
