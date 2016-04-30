@@ -1,8 +1,8 @@
 var TelegramBot = require('node-telegram-bot-api');
 var unirest = require('unirest');
 
-var token = '186253056:AAH_1mmK5DFdSe-4JwsvM2w8ydtHoD-1dro';
-var key = 'trnsl.1.1.20160429T055226Z.ad9ff8a646a39d38.2791ff1f75fc277eafc53bd34e7205c35d4c7cf4';
+var token = <BOT_TOLEN>;
+var key = <API_KEY>;
 // See https://developers.openshift.com/en/node-js-environment-variables.html
 var port = process.env.OPENSHIFT_NODEJS_PORT;
 var host = process.env.OPENSHIFT_NODEJS_IP;
